@@ -14,6 +14,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   gem 'coveralls', require: false
   gem 'rspec-rails'
+  
   gem 'shoulda-matchers'
   gem 'factory_bot_rails'
   gem 'capybara' 
@@ -23,5 +24,6 @@ group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.2'
   gem 'spring'
+  gem 'devise'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
